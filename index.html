@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Accueil | Portfolio Personnel</title>
+  <meta name="description" content="Portfolio personnel présentant mon parcours scolaire, mes expériences professionnelles, mes compétences, mes passions et mes événements technologiques." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="accueil">
+
+  <!-- ==================== HEADER UNIFIÉ ==================== -->
+  <header id="site-header"></header>
+
+  <main>
+    <!-- ==================== HERO SECTION AVEC MA PHOTO ==================== -->
+    <section class="hero-section">
+      <div class="hero-glow-1"></div>
+      <div class="hero-glow-2"></div>
+
+      <div class="container hero-grid">
+        <!-- Informations d'introduction -->
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="pulse-dot"></span>
+            <span>Disponible pour de nouveaux projets & opportunités</span>
+          </div>
+
+          <h1 class="hero-title">
+            Bonjour, bienvenue sur mon <span class="gradient-text">Portfolio</span>
+          </h1>
+
+          <p class="hero-subtitle">
+            Étudiant passionné d'informatique, développeur et créateur multimédia. Je conçois des applications web modernes, des identités visuelles percutantes et des productions audiovisuelles dynamiques.
+          </p>
+
+          <div class="hero-cta">
+            <a href="competences.html" class="btn btn-primary">
+              <span>💻</span> Découvrir mes compétences
+            </a>
+            <a href="contact.html" class="btn btn-secondary">
+              <span>📩</span> Me contacter
+            </a>
+            <a href="#parcours-scolaire" class="btn btn-secondary">
+              <span>🎓</span> Mon parcours
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div class="stat-item">
+              <h3>15+</h3>
+              <p>Projets Réalisés</p>
+            </div>
+            <div class="stat-item">
+              <h3>5+</h3>
+              <p>Technologies Maîtrisées</p>
+            </div>
+            <div class="stat-item">
+              <h3>4+</h3>
+              <p>Certifications & Événements</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Visuel : Cadre avec MA PHOTO -->
+        <div class="hero-visual">
+          <div class="photo-card-wrapper">
+            <div class="photo-glow-border"></div>
+
+            <div class="photo-card">
+              <!-- La photo de profil : affiche 'ma-photo.jpg' si disponible, sinon l'avatar moderne 'ma-photo.svg' -->
+              <img 
+                src="images/profil/ma-photo.jpg" 
+                onerror="this.onerror=null; this.src='images/profil/ma-photo.svg';" 
+                alt="Ma photo de profil" 
+                class="profile-photo" 
+                id="user-profile-img"
+              />
+            </div>
+
+            <!-- Badges flottants -->
+            <div class="floating-badge badge-top-left">
+              <span>🚀</span> Passionné Tech
+            </div>
+            <div class="floating-badge badge-bottom-right">
+              <span>💻</span> Full Stack & Créatif
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 1. 🎓 PRÉSENTATION SCOLAIRE ==================== -->
+    <section class="section section-alt" id="parcours-scolaire">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">🎓 Éducation & Formation</span>
+          <h2 class="section-title">Mon Parcours <span class="gradient-text">Scolaire</span></h2>
+          <p class="section-subtitle">
+            Découvrez mon cheminement académique, ma filière d'études, mes domaines de prédilection ainsi que mes ambitions d'avenir.
+          </p>
+        </div>
+
+        <div class="academic-grid">
+          <!-- Carte 1 : Niveau d'étude & Filière -->
+          <div class="academic-card">
+            <div class="card-icon-header">
+              <div class="card-icon">🏛️</div>
+              <span class="badge">Études Supérieures</span>
+            </div>
+            <h3>Filière & Établissement</h3>
+            <p class="school-name">Institut / Université des Sciences & Technologies</p>
+            <p>
+              Étudiant en <strong>Informatique & Génie Logiciel</strong>. Formation approfondie couvrant l'algorithmique, les bases de données, l'architecture logicielle et le développement web moderne.
+            </p>
+            <ul class="goals-list">
+              <li>Niveau : Licence / Cycle d'Ingénieur en Informatique</li>
+              <li>Spécialisation : Développement Web & Systèmes d'Information</li>
+            </ul>
+          </div>
+
+          <!-- Carte 2 : Domaines d'intérêt -->
+          <div class="academic-card">
+            <div class="card-icon-header">
+              <div class="card-icon">💡</div>
+              <span class="badge">Curiosité</span>
+            </div>
+            <h3>Domaines d'Intérêt</h3>
+            <p>
+              Toujours en quête d'approfondissement technique, je concentre mes recherches et projets sur les technologies à fort impact :
+            </p>
+            <ul class="goals-list">
+              <li>Développement d'applications web interactives et scalables</li>
+              <li>Conception d'interfaces utilisateurs intuitives (UI/UX)</li>
+              <li>Intelligence Artificielle appliquée et automatisation</li>
+              <li>Génie logiciel et bonnes pratiques de programmation</li>
+            </ul>
+          </div>
+
+          <!-- Carte 3 : Objectifs académiques -->
+          <div class="academic-card">
+            <div class="card-icon-header">
+              <div class="card-icon">🎯</div>
+              <span class="badge">Vision & Futur</span>
+            </div>
+            <h3>Objectifs Académiques</h3>
+            <p>
+              Ma vision est de concilier une solide rigueur théorique avec une pratique terrain continue à travers des projets concrets.
+            </p>
+            <ul class="goals-list">
+              <li>Obtention de diplôme avec excellence académique</li>
+              <li>Réalisation de projets de fin d'études innovants</li>
+              <li>Poursuite continue de certifications professionnelles reconnues</li>
+              <li>Évolution vers un rôle d'Architecte Logiciel et Lead Developer</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 2. 💼 PRÉSENTATION PROFESSIONNELLE ==================== -->
+    <section class="section" id="parcours-professionnel">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">💼 Expériences de Terrain</span>
+          <h2 class="section-title">Expériences Professionnelles & <span class="gradient-text">Stages</span></h2>
+          <p class="section-subtitle">
+            Un aperçu des missions en entreprise, des responsabilités assumées et des compétences techniques éprouvées.
+          </p>
+        </div>
+
+        <div class="experience-timeline">
+          <!-- Expérience 1 -->
+          <div class="exp-item">
+            <div class="exp-card">
+              <div class="exp-header">
+                <div class="exp-title-block">
+                  <h3>Stagiaire Développeur Web & Multimédia</h3>
+                  <div class="exp-company">TechSolutions Agency</div>
+                </div>
+                <span class="badge exp-period">Juin 2025 - Septembre 2025</span>
+              </div>
+              <div class="exp-location">📍 Cotonou / Bénin & Hybride</div>
+              <p style="color: var(--text-secondary); margin-bottom: 0.75rem;">
+                <strong>Domaine d'activité :</strong> Agence digitale spécialisée dans la création de solutions web et la communication visuelle.
+              </p>
+              <ul class="exp-missions">
+                <li>Participation au développement et à la refonte de portails web responsives en HTML, CSS, JavaScript et PHP.</li>
+                <li>Création de supports graphiques (affiches, bannières, maquettes de présentation) pour les clients de l'agence.</li>
+                <li>Optimisation des performances et amélioration de la compatibilité multi-écrans (mobiles, tablettes, ordinateurs).</li>
+                <li>Montage de capsules vidéo promotionnelles courtes pour les réseaux sociaux.</li>
+              </ul>
+              <div class="exp-tags">
+                <span class="badge">HTML5 / CSS3</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">PHP</span>
+                <span class="badge">Photoshop</span>
+                <span class="badge">Premiere Pro</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Expérience 2 -->
+          <div class="exp-item">
+            <div class="exp-card">
+              <div class="exp-header">
+                <div class="exp-title-block">
+                  <h3>Développeur & Concepteur Graphique Freelance</h3>
+                  <div class="exp-company">Projets Indépendants & PME</div>
+                </div>
+                <span class="badge exp-period">2024 - Présent</span>
+              </div>
+              <div class="exp-location">📍 Télétravail & Collaborations Locales</div>
+              <p style="color: var(--text-secondary); margin-bottom: 0.75rem;">
+                <strong>Domaine d'activité :</strong> Prestations de services informatiques, création de sites vitrines et design de marques.
+              </p>
+              <ul class="exp-missions">
+                <li>Conception de logos, chartes graphiques complètes et identités de marque pour commerces et entrepreneurs.</li>
+                <li>Création de sites vitrines dynamiques avec formulaires de contact et catalogues de produits.</li>
+                <li>Montage et habillage dynamique de vidéos pour chaînes YouTube et comptes TikTok.</li>
+                <li>Accompagnement des clients dans la gestion de leur présence numérique.</li>
+              </ul>
+              <div class="exp-tags">
+                <span class="badge">UI/UX Design</span>
+                <span class="badge">Branding</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">Montage Vidéo</span>
+                <span class="badge">Git / GitHub</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 3. ❤️ MA PASSION ==================== -->
+    <section class="section section-alt" id="passions">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">❤️ Ce qui m'anime</span>
+          <h2 class="section-title">Ma Passion pour le <span class="gradient-text">Numérique</span></h2>
+          <p class="section-subtitle">
+            L'informatique et les nouvelles technologies ne sont pas qu'un domaine d'étude pour moi, c'est une véritable vocation créative au quotidien.
+          </p>
+        </div>
+
+        <div class="passion-grid">
+          <!-- Carte 1 -->
+          <div class="passion-card">
+            <div class="passion-icon-box">💻</div>
+            <h3>Programmation & Code</h3>
+            <p>
+              Résoudre des problèmes complexes par des lignes de code élégantes, structurées et performantes est une stimulation continue.
+            </p>
+          </div>
+
+          <!-- Carte 2 -->
+          <div class="passion-card">
+            <div class="passion-icon-box">🌐</div>
+            <h3>Développement Web</h3>
+            <p>
+              Transformer des idées abstraites en applications web interactives, accessibles et esthétiques pour des utilisateurs réels.
+            </p>
+          </div>
+
+          <!-- Carte 3 -->
+          <div class="passion-card">
+            <div class="passion-icon-box">🎨</div>
+            <h3>Design Graphique</h3>
+            <p>
+              Explorer les couleurs, la typographie et la composition visuelle afin de donner vie à des identités de marque mémorables.
+            </p>
+          </div>
+
+          <!-- Carte 4 -->
+          <div class="passion-card">
+            <div class="passion-icon-box">🎬</div>
+            <h3>Montage Vidéo</h3>
+            <p>
+              Raconter des histoires dynamiques par le rythme du montage, les effets sonores et les animations en motion design.
+            </p>
+          </div>
+
+          <!-- Carte 5 -->
+          <div class="passion-card">
+            <div class="passion-icon-box">🚀</div>
+            <h3>Nouvelles Technologies</h3>
+            <p>
+              Veille constante sur l'évolution de l'intelligence artificielle, des frameworks modernes et des tendances du futur numérique.
+            </p>
+          </div>
+
+          <!-- Carte 6 -->
+          <div class="passion-card">
+            <div class="passion-icon-box">✨</div>
+            <h3>Création Numérique</h3>
+            <p>
+              Bâtir des projets de A à Z avec enthousiasme, de la première esquisse jusqu'au déploiement et à la mise en ligne.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== 4. 🚀 ÉVÉNEMENTS TECHNOLOGIQUES ==================== -->
+    <section class="section" id="evenements-tech">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">🚀 Engagement & Réseautage</span>
+          <h2 class="section-title">Événements <span class="gradient-text">Technologiques</span></h2>
+          <p class="section-subtitle">
+            Hackathons, conférences, ateliers et rencontres tech auxquels j'ai participé pour apprendre, collaborer et relever des défis.
+          </p>
+        </div>
+
+        <div class="events-grid">
+          <!-- Événement 1 : Hackathon -->
+          <div class="event-card">
+            <div class="event-image-box">
+              <img src="images/evenements/event-hackathon.svg" alt="Hackathon Innovation Tech" class="event-image" />
+              <span class="event-badge">Hackathon 48H</span>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <span>📅 Novembre 2025</span>
+                <span>📍 Cotonou Tech Hub</span>
+              </div>
+              <h3>Hackathon Innovation Numérique</h3>
+              <p>
+                Défi collaboratif de 48 heures chronométré axé sur la création d'une solution numérique pour faciliter la gestion des services d'urgence et le partage de données en temps réel.
+              </p>
+              <div class="event-role">
+                <span>Rôle : <strong>Développeur Front-End & Designer UI</strong></span>
+                <span class="badge">Compétition</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Événement 2 : Forum IA & Conférence -->
+          <div class="event-card">
+            <div class="event-image-box">
+              <img src="images/evenements/event-conference.svg" alt="Forum du Numérique et IA" class="event-image" />
+              <span class="event-badge">Conférence</span>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <span>📅 Juillet 2025</span>
+                <span>📍 Palais des Congrès</span>
+              </div>
+              <h3>Forum International du Numérique & IA</h3>
+              <p>
+                Grand rassemblement réunissant des leaders technologiques, chercheurs et ingénieurs autour de l'impact de l'intelligence artificielle générative et de l'automatisation en Afrique.
+              </p>
+              <div class="event-role">
+                <span>Rôle : <strong>Participant & Auditeur Actif</strong></span>
+                <span class="badge">Conférence</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Événement 3 : Workshop Dev -->
+          <div class="event-card">
+            <div class="event-image-box">
+              <img src="images/evenements/event-workshop.svg" alt="Workshop Développement Web" class="event-image" />
+              <span class="event-badge">Atelier Pratique</span>
+            </div>
+            <div class="event-content">
+              <div class="event-meta">
+                <span>📅 Mars 2025</span>
+                <span>📍 Espace Coworking</span>
+              </div>
+              <h3>Workshop Dév Web & Sécurité Applicative</h3>
+              <p>
+                Atelier intensif avec travaux pratiques sur la mise en place d'architectures web robustes, la gestion des sessions utilisateur sécurisées et l'optimisation des performances SQL.
+              </p>
+              <div class="event-role">
+                <span>Rôle : <strong>Participant & Projet d'équipe</strong></span>
+                <span class="badge">Formation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER UNIFIÉ ==================== -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

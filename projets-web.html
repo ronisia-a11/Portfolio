@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projets Développement Web | Portfolio Personnel</title>
+  <meta name="description" content="Découvrez mes projets de développement web et logiciel : plateformes e-commerce, applications de gestion en Java, dashboards et sites interactifs." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="competences">
+
+  <!-- ==================== HEADER UNIFIÉ ==================== -->
+  <header id="site-header"></header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div style="margin-bottom: 2rem;">
+          <a href="competences.html" class="btn btn-secondary btn-sm">
+            <span>←</span> Retour aux compétences
+          </a>
+        </div>
+
+        <div class="section-header">
+          <span class="section-tag">💻 Code & Réalisations Web</span>
+          <h1 class="section-title">Projets de <span class="gradient-text">Développement Web & Logiciel</span></h1>
+          <p class="section-subtitle">
+            Une sélection d'applications web, sites interactifs et outils de gestion développés avec rigueur en HTML, CSS, JavaScript, PHP et Java.
+          </p>
+        </div>
+
+        <!-- Filtres par technologie -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">Tous les projets</button>
+          <button class="filter-btn" data-filter="fullstack">Web Full-Stack (PHP / JS)</button>
+          <button class="filter-btn" data-filter="frontend">Front-End (HTML / CSS / JS)</button>
+          <button class="filter-btn" data-filter="java">Java & Logiciel</button>
+        </div>
+
+        <!-- Grille des Projets Web -->
+        <div class="projects-grid">
+          <!-- Projet 1 : E-commerce -->
+          <div class="project-card" data-category="fullstack">
+            <div class="project-thumb" onclick="openModal('images/projets/web-ecommerce.svg', 'Plateforme E-Commerce Complète', 'Plateforme marchande responsive avec catalogue dynamique, panier de commandes persistant, gestion des stocks en base MySQL et espace d\'administration sécurisé.')">
+              <img src="images/projets/web-ecommerce.svg" alt="Plateforme E-Commerce" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir la capture">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Plateforme E-Commerce & Catalogue</h3>
+              <p>
+                Boutique en ligne complète avec filtres de produits instantanés, panier d'achats interactif, calcul des frais et panneau d'administration.
+              </p>
+              <div class="project-tags">
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS3</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">PHP</span>
+                <span class="badge">MySQL</span>
+              </div>
+              <div class="project-footer-actions">
+                <a href="#" class="btn btn-primary btn-sm" onclick="event.preventDefault(); showToast('Démo en ligne disponible sur serveur de test !');">
+                  <span>🌐 Démo</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>💻 Code GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 2 : Application de Gestion Java -->
+          <div class="project-card" data-category="java">
+            <div class="project-thumb" onclick="openModal('images/projets/web-gestion.svg', 'Logiciel de Gestion Commerciale (Java)', 'Application de bureau et web service développée en Java avec architecture MVC, interface JavaFX ergonomique et persistance des données via requêtes JDBC préparées.')">
+              <img src="images/projets/web-gestion.svg" alt="Application de Gestion Java" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir la capture">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Logiciel de Gestion Commerciale & Stocks</h3>
+              <p>
+                Application robuste en Java pour le suivi des ventes, la génération automatisée de factures PDF et la gestion fine des inventaires.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Java</span>
+                <span class="badge">POO / MVC</span>
+                <span class="badge">JDBC</span>
+                <span class="badge">MySQL</span>
+              </div>
+              <div class="project-footer-actions">
+                <a href="#" class="btn btn-primary btn-sm" onclick="event.preventDefault(); openModal('images/projets/web-gestion.svg', 'Logiciel de Gestion Commerciale', 'Application Java avec interface fenêtrée moderne, gestion des droits utilisateurs et export PDF.');">
+                  <span>Détails & Captures</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>💻 Code GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 3 : Portfolio Personnel Numérique -->
+          <div class="project-card" data-category="frontend">
+            <div class="project-thumb" onclick="openModal('images/projets/web-portfolio.svg', 'Portfolio Personnel Responsive', 'Site portfolio moderne développé sans dépendance lourde en HTML5 sémantique, CSS3 (variables, grid, flexbox, dark/light mode) et JavaScript vanilla.')">
+              <img src="images/projets/web-portfolio.svg" alt="Portfolio Moderne" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir la capture">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Portfolio Numérique & Interactif</h3>
+              <p>
+                Interface moderne et épurée présentant mes compétences, mes attestations et mes réalisations avec gestion du mode sombre/clair et responsive design.
+              </p>
+              <div class="project-tags">
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS3 Moderne</span>
+                <span class="badge">JavaScript Vanilla</span>
+                <span class="badge">UI/UX</span>
+              </div>
+              <div class="project-footer-actions">
+                <a href="index.html" class="btn btn-primary btn-sm">
+                  <span>🌐 Voir en direct</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>💻 Code GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 4 : Dashboard Analytics -->
+          <div class="project-card" data-category="fullstack">
+            <div class="project-thumb" onclick="openModal('images/projets/web-dashboard.svg', 'Tableau de Bord Analytics & KPIs', 'Dashboard interactif affichant des métriques en temps réel, filtres chronologiques par période et graphiques personnalisés.')">
+              <img src="images/projets/web-dashboard.svg" alt="Dashboard Analytics" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir la capture">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Tableau de Bord Analytics & KPIs</h3>
+              <p>
+                Panneau d'administration avec visualisation dynamique de données statistiques, export au format CSV et alertes configurables.
+              </p>
+              <div class="project-tags">
+                <span class="badge">JavaScript (ES6+)</span>
+                <span class="badge">PHP API</span>
+                <span class="badge">JSON / REST</span>
+                <span class="badge">CSS Grid</span>
+              </div>
+              <div class="project-footer-actions">
+                <a href="#" class="btn btn-primary btn-sm" onclick="event.preventDefault(); showToast('Interface de simulation chargée avec succès !');">
+                  <span>🌐 Démo</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>💻 Code GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 5 : Blog & Portail Tech -->
+          <div class="project-card" data-category="fullstack">
+            <div class="project-thumb" onclick="openModal('images/projets/web-blog.svg', 'Portail d\'Articles & Blog Tech', 'Système de gestion de contenu (CMS fait maison) en PHP avec système de commentaires modérés, catégories d\'articles et recherche textuelle.')">
+              <img src="images/projets/web-blog.svg" alt="Blog et Portail Tech" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir la capture">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Portail d'Articles & Veille Technologique</h3>
+              <p>
+                Application web de publication d'articles avec éditeur de texte enrichi, système d'authentification utilisateur et gestion de commentaires.
+              </p>
+              <div class="project-tags">
+                <span class="badge">PHP</span>
+                <span class="badge">MySQL</span>
+                <span class="badge">CRUD Complet</span>
+                <span class="badge">Sécurité CSRF</span>
+              </div>
+              <div class="project-footer-actions">
+                <a href="#" class="btn btn-primary btn-sm" onclick="event.preventDefault(); showToast('Version de démonstration consultable.');">
+                  <span>🌐 Démo</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>💻 Code GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 6 : Site Restaurant & Commande -->
+          <div class="project-card" data-category="frontend">
+            <div class="project-thumb" onclick="openModal('images/projets/web-resto.svg', 'Site Web de Réservation & Menu', 'Site vitrine et système de commande de repas avec menu interactif classé par catégorie, géolocalisation et calcul dynamique du montant.')">
+              <img src="images/projets/web-resto.svg" alt="Site Restaurant" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir la capture">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Menu Numérique & Réservation Restaurant</h3>
+              <p>
+                Interface moderne pour établissement culinaire : consultation de menu avec filtres de régimes alimentaires et module de réservation rapide.
+              </p>
+              <div class="project-tags">
+                <span class="badge">HTML5</span>
+                <span class="badge">CSS3 Animations</span>
+                <span class="badge">JavaScript</span>
+                <span class="badge">Mobile First</span>
+              </div>
+              <div class="project-footer-actions">
+                <a href="#" class="btn btn-primary btn-sm" onclick="event.preventDefault(); showToast('Commande test simulée.');">
+                  <span>🌐 Démo</span>
+                </a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                  <span>💻 Code GitHub</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER UNIFIÉ ==================== -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

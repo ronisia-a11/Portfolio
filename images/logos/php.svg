@@ -1,0 +1,6 @@
+<!-- PHP Logo -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <rect width="512" height="512" fill="#777bb4" rx="60"/>
+  <ellipse cx="256" cy="256" rx="210" ry="125" fill="#4f5b93" stroke="#8892be" stroke-width="8"/>
+  <text x="256" y="290" font-family="Arial, sans-serif" font-weight="900" font-size="140" fill="#ffffff" text-anchor="middle" font-style="italic">php</text>
+</svg>

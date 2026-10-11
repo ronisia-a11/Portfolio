@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projets Design Graphique | Portfolio Personnel</title>
+  <meta name="description" content="Découvrez mes créations en design graphique : affiches, flyers, logos, bannières et publications pour réseaux sociaux." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="competences">
+
+  <!-- ==================== HEADER UNIFIÉ ==================== -->
+  <header id="site-header"></header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div style="margin-bottom: 2rem;">
+          <a href="competences.html" class="btn btn-secondary btn-sm">
+            <span>←</span> Retour aux compétences
+          </a>
+        </div>
+
+        <div class="section-header">
+          <span class="section-tag">🎨 Galerie Visuelle</span>
+          <h1 class="section-title">Projets de <span class="gradient-text">Design Graphique</span></h1>
+          <p class="section-subtitle">
+            Une sélection de créations graphiques conçues pour valoriser des événements, forger des identités de marque et capter l'attention sur les supports imprimés et digitaux.
+          </p>
+        </div>
+
+        <!-- Filtres par catégorie -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">Tous les projets</button>
+          <button class="filter-btn" data-filter="affiches">Affiches & Flyers</button>
+          <button class="filter-btn" data-filter="branding">Logos & Branding</button>
+          <button class="filter-btn" data-filter="social">Réseaux Sociaux</button>
+          <button class="filter-btn" data-filter="pub">Publicités & Bannières</button>
+        </div>
+
+        <!-- Grille de Projets Design -->
+        <div class="projects-grid">
+          <!-- Projet 1 : Affiche Événementielle -->
+          <div class="project-card" data-category="affiches">
+            <div class="project-thumb" onclick="openModal('images/projets/design-affiche.svg', 'Affiche Événementielle - Tech Meetup', 'Conception d\'une affiche grand format pour une conférence technologique. Travail poussé sur le contraste visuel, la hiérarchie typographique et les repères de lecture.')">
+              <img src="images/projets/design-affiche.svg" alt="Affiche Tech Meetup" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Affiche Événementielle - Tech Meetup</h3>
+              <p>
+                Affiche promotionnelle pour un rassemblement de développeurs et passionnés de tech. Typographie percutante et composition dynamique.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Affiche</span>
+                <span class="badge">Adobe Photoshop</span>
+                <span class="badge">Print & Web</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/design-affiche.svg', 'Affiche Événementielle - Tech Meetup', 'Conception graphique complète avec format optimisé pour l\'impression 300 DPI et la diffusion digitale.')">
+                  <span>Aperçu HD</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 2 : Logo & Identité Visuelle -->
+          <div class="project-card" data-category="branding">
+            <div class="project-thumb" onclick="openModal('images/projets/design-logo.svg', 'Identité Visuelle & Logo - Startup Tech', 'Création d\'un logo moderne minimaliste avec déclinaisons couleurs, guide de typographies et règles d\'utilisation sur différents supports.')">
+              <img src="images/projets/design-logo.svg" alt="Identité Visuelle et Logo" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Identité Visuelle & Logo - InnovTech</h3>
+              <p>
+                Création d'un logo contemporain et de la charte graphique complète pour une jeune entreprise de services numériques.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Branding</span>
+                <span class="badge">Illustrator</span>
+                <span class="badge">Vectoriel</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/design-logo.svg', 'Identité Visuelle & Logo - InnovTech', 'Création vectorielle SVG/EPS et guide complet de charte graphique.')">
+                  <span>Aperçu HD</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 3 : Flyer Promotionnel -->
+          <div class="project-card" data-category="affiches">
+            <div class="project-thumb" onclick="openModal('images/projets/design-flyer.svg', 'Flyer Promotionnel - Lancement Produit', 'Flyer commercial recto-verso structuré pour maximiser la conversion et inciter à l\'action rapide avec QR code intégré.')">
+              <img src="images/projets/design-flyer.svg" alt="Flyer Promotionnel" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Flyer Commercial Recto-Verso</h3>
+              <p>
+                Support de communication pour le lancement d'une nouvelle offre commerciale. Mise en page claire et incitative.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Flyer</span>
+                <span class="badge">Marketing Direct</span>
+                <span class="badge">InDesign</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/design-flyer.svg', 'Flyer Commercial Recto-Verso', 'Format standard A5 prêt pour tirage papier haute définition.')">
+                  <span>Aperçu HD</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 4 : Pack Réseaux Sociaux -->
+          <div class="project-card" data-category="social">
+            <div class="project-thumb" onclick="openModal('images/projets/design-social.svg', 'Pack Visuels Réseaux Sociaux', 'Série de templates Instagram et Facebook comprenant des carrousels éducatifs, des couvertures et des stories interactives.')">
+              <img src="images/projets/design-social.svg" alt="Pack Réseaux Sociaux" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Pack Réseaux Sociaux & Carrousels</h3>
+              <p>
+                Ensemble de visuels cohérents pour Instagram et LinkedIn afin d'accroître l'engagement de la communauté en ligne.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Social Media</span>
+                <span class="badge">Canva & Photoshop</span>
+                <span class="badge">Carrousel</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/design-social.svg', 'Pack Réseaux Sociaux & Carrousels', 'Gabarits 1080x1080px et 1080x1920px personnalisables.')">
+                  <span>Aperçu HD</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 5 : Design Publicitaire -->
+          <div class="project-card" data-category="pub">
+            <div class="project-thumb" onclick="openModal('images/projets/design-pub.svg', 'Campagne Publicitaire Digitale', 'Bannières publicitaires multi-formats (Display Google & Facebook Ads) optimisées pour un taux de clic maximal.')">
+              <img src="images/projets/design-pub.svg" alt="Campagne Publicitaire Digitale" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Bannières & Publicités Digitales</h3>
+              <p>
+                Création de déclinaisons de bannières web publicitaires avec accroches percutantes et boutons d'appel à l'action bien visibles.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Ads</span>
+                <span class="badge">Web Marketing</span>
+                <span class="badge">Figma</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/design-pub.svg', 'Bannières & Publicités Digitales', 'Déclinaisons aux formats IAB standards pour le réseau display.')">
+                  <span>Aperçu HD</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Projet 6 : Créations Graphiques & Illustrations -->
+          <div class="project-card" data-category="branding">
+            <div class="project-thumb" onclick="openModal('images/projets/design-creation.svg', 'Illustrations & Créations Graphiques', 'Créations artistiques numériques et composition originale combinant retouche photo, vecteurs et effets d\'ambiance.')">
+              <img src="images/projets/design-creation.svg" alt="Créations Graphiques" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Agrandir">🔍</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Créations Artistiques & Infographies</h3>
+              <p>
+                Travaux d'illustration vectorielle et d'infographies synthétiques pour vulgariser des concepts informatiques complexes.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Illustration</span>
+                <span class="badge">Infographie</span>
+                <span class="badge">Créativité</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/design-creation.svg', 'Créations Artistiques & Infographies', 'Composition graphique vectorielle et design d\'information.')">
+                  <span>Aperçu HD</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER UNIFIÉ ==================== -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

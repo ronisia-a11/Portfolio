@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projets Montage Vidéo | Portfolio Personnel</title>
+  <meta name="description" content="Découvrez mes réalisations en montage vidéo : spots publicitaires, formats courts TikTok/Reels, aftermovies, clips et animations motion design." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="competences">
+
+  <!-- ==================== HEADER UNIFIÉ ==================== -->
+  <header id="site-header"></header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div style="margin-bottom: 2rem;">
+          <a href="competences.html" class="btn btn-secondary btn-sm">
+            <span>←</span> Retour aux compétences
+          </a>
+        </div>
+
+        <div class="section-header">
+          <span class="section-tag">🎬 Réalisations Audiovisuelles</span>
+          <h1 class="section-title">Projets de <span class="gradient-text">Montage Vidéo</span></h1>
+          <p class="section-subtitle">
+            Du montage dynamique à la post-production avancée : étalonnage de couleurs, animations graphiques, synchronisation sonore et découpage narratif percutant.
+          </p>
+        </div>
+
+        <!-- Filtres Vidéo -->
+        <div class="projects-filter-bar">
+          <button class="filter-btn active" data-filter="all">Toutes les vidéos</button>
+          <button class="filter-btn" data-filter="promo">Spots & Publicités</button>
+          <button class="filter-btn" data-filter="social">Formats Courts (TikTok/Reels)</button>
+          <button class="filter-btn" data-filter="event">Aftermovies & Événements</button>
+          <button class="filter-btn" data-filter="motion">Motion Design & Clips</button>
+        </div>
+
+        <!-- Grille des Projets Vidéo -->
+        <div class="projects-grid">
+          <!-- Vidéo 1 : Spot Promo -->
+          <div class="project-card" data-category="promo">
+            <div class="project-thumb" onclick="openModal('images/projets/video-promo.svg', 'Spot Publicitaire - Lancement d\'Application', 'Vidéo publicitaire de 45 secondes axée sur la mise en valeur des fonctionnalités clés, avec typographie dynamique, transitions rythmées et sound design immersif.')">
+              <img src="images/projets/video-promo.svg" alt="Spot Publicitaire" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Lire / Aperçu">▶</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Spot Promotionnel - Lancement Digital</h3>
+              <p>
+                Vidéo publicitaire rythmée présentant les bénéfices d'une nouvelle solution digitale. Transitions soignées et effets sonores percutants.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Durée : 0:45</span>
+                <span class="badge">Premiere Pro</span>
+                <span class="badge">Sound Design</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/video-promo.svg', 'Spot Promotionnel - Lancement Digital', 'Montage dynamique et étalonnage sous Premiere Pro avec habillage sonore sous Audition.')">
+                  <span>Détails & Visionner</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vidéo 2 : TikTok / Reels -->
+          <div class="project-card" data-category="social">
+            <div class="project-thumb" onclick="openModal('images/projets/video-social.svg', 'Contenu Court Viral - Format 9:16', 'Série de capsules vidéo dynamiques de 30 secondes adaptées pour TikTok et Instagram Reels, avec sous-titres animés mot à mot, b-rolls captivants et rythme élevé.')">
+              <img src="images/projets/video-social.svg" alt="Reels & TikTok Viral" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Lire / Aperçu">▶</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Capsules Courtes Réseaux (TikTok & Reels)</h3>
+              <p>
+                Montage de vidéos verticales au rythme soutenu avec sous-titres dynamiques, zooms et effets d'arrêt sur image pour maximiser la rétention.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Durée : 0:30</span>
+                <span class="badge">Format 9:16</span>
+                <span class="badge">CapCut & Premiere</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/video-social.svg', 'Capsules Courtes Réseaux (TikTok & Reels)', 'Optimisation pour le taux de rétention, sous-titres stylisés mot à mot et effets sonores percutants.')">
+                  <span>Détails & Visionner</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vidéo 3 : Aftermovie Événement -->
+          <div class="project-card" data-category="event">
+            <div class="project-thumb" onclick="openModal('images/projets/video-event.svg', 'Aftermovie Officiel - Festival Tech', 'Restitution vidéo complète de 2 minutes récapitulant les moments forts, les interventions de conférenciers et l\'ambiance d\'un grand salon technologique.')">
+              <img src="images/projets/video-event.svg" alt="Aftermovie Officiel" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Lire / Aperçu">▶</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Aftermovie Événementiel - Festival Tech</h3>
+              <p>
+                Synthèse immersive d'un forum technologique de deux jours. Montage cinématographique avec étalonnage de couleurs (Color Grading) chaleureux.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Durée : 2:15</span>
+                <span class="badge">Color Grading</span>
+                <span class="badge">Multi-caméras</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/video-event.svg', 'Aftermovie Événementiel - Festival Tech', 'Montage multi-caméras, mixage audio des interviews et étalonnage cinématographique LUTs.')">
+                  <span>Détails & Visionner</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vidéo 4 : Motion Design & Animation -->
+          <div class="project-card" data-category="motion">
+            <div class="project-thumb" onclick="openModal('images/projets/video-anim.svg', 'Animation Motion Design 2D', 'Animation 2D explicative détaillant le fonctionnement d\'un service en ligne à travers des icônes vectorielles en mouvement, des titrages et des transitions fluides.')">
+              <img src="images/projets/video-anim.svg" alt="Motion Design 2D" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Lire / Aperçu">▶</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Vidéo Explicative en Motion Design 2D</h3>
+              <p>
+                Création et animation d'éléments vectoriels graphiques pour expliquer de manière simple et ludique une architecture logicielle.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Durée : 1:10</span>
+                <span class="badge">After Effects</span>
+                <span class="badge">Animation 2D</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/video-anim.svg', 'Vidéo Explicative en Motion Design 2D', 'Animation vectorielle créée avec Adobe After Effects et calques de formes.')">
+                  <span>Détails & Visionner</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vidéo 5 : Clip Musical & Rythmique -->
+          <div class="project-card" data-category="motion">
+            <div class="project-thumb" onclick="openModal('images/projets/video-clip.svg', 'Montage Clip Musical & Visuels', 'Montage musical synchronisé à la mesure près, avec effets de distortion glitch légers, masquage de transition et gestion des lumières.')">
+              <img src="images/projets/video-clip.svg" alt="Clip Musical" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Lire / Aperçu">▶</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Clip Vidéo Musical & Effets Stylisés</h3>
+              <p>
+                Production créative synchronisée sur les temps forts du beat. Intégration de masques de transition et d'effets visuels stylisés.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Durée : 3:00</span>
+                <span class="badge">Beat Sync</span>
+                <span class="badge">VFX Stylisés</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/video-clip.svg', 'Clip Vidéo Musical & Effets Stylisés', 'Synchronisation précise sur piste musicale et habillage graphique.')">
+                  <span>Détails & Visionner</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vidéo 6 : Vidéo Présentation & Pitch -->
+          <div class="project-card" data-category="promo">
+            <div class="project-thumb" onclick="openModal('images/projets/video-presentation.svg', 'Pitch Vidéo de Projet Numérique', 'Vidéo de démonstration produit et pitch d\'entreprise conçue pour des investisseurs et jurys de concours d\'innovation.')">
+              <img src="images/projets/video-presentation.svg" alt="Pitch Vidéo" />
+              <div class="project-thumb-overlay">
+                <span class="overlay-btn" title="Lire / Aperçu">▶</span>
+              </div>
+            </div>
+            <div class="project-body">
+              <h3>Présentation Produit & Démo Screencast</h3>
+              <p>
+                Vidéo institutionnelle mixant captures d'écran d'applications commentées, infographies animées et témoignages clients clairs.
+              </p>
+              <div class="project-tags">
+                <span class="badge">Durée : 1:40</span>
+                <span class="badge">Présentation</span>
+                <span class="badge">Screencast Pro</span>
+              </div>
+              <div class="project-footer-actions">
+                <button class="btn btn-primary btn-sm" onclick="openModal('images/projets/video-presentation.svg', 'Présentation Produit & Démo Screencast', 'Captation d\'écran haute définition et animation des points clés d\'ergonomie.')">
+                  <span>Détails & Visionner</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER UNIFIÉ ==================== -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

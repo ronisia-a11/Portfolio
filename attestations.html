@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Attestations & Certifications | Portfolio Personnel</title>
+  <meta name="description" content="Consultez mes attestations, certifications professionnelles et formations obtenues dans le développement web, la programmation et le multimédia." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="attestations">
+
+  <!-- ==================== HEADER UNIFIÉ ==================== -->
+  <header id="site-header"></header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">📜 Certifications & Diplômes</span>
+          <h1 class="section-title">Mes <span class="gradient-text">Attestations</span></h1>
+          <p class="section-subtitle">
+            Témoignages formels de mes compétences acquises lors de formations spécialisées, parcours académiques et ateliers techniques. Cliquez sur une attestation pour l'agrandir en haute définition.
+          </p>
+        </div>
+
+        <!-- Grille des Attestations -->
+        <div class="attestations-grid">
+          <!-- Attestation 1 : Développement Web -->
+          <div class="attestation-card">
+            <div class="attestation-img-wrap" onclick="openModal('images/attestations/certif-dev-web.svg', 'Attestation de Réussite - Développement Web Moderne', 'Délivrée par l\'Académie Numérique d\'Excellence. Validation complète des acquis sur la conception de sites web responsives, HTML5, CSS3, JavaScript ES6 et l\'intégration d\'API.')">
+              <img src="images/attestations/certif-dev-web.svg" alt="Attestation Développement Web Moderne" />
+              <div class="attestation-zoom-hint">
+                <span>🔍</span>
+                <span>Cliquer pour agrandir</span>
+              </div>
+            </div>
+            <div class="attestation-info">
+              <h3>Attestation de Réussite - Développement Web Moderne</h3>
+              <div class="attestation-org">
+                <span>🏢</span>
+                <span>Académie Numérique d'Excellence</span>
+              </div>
+              <div class="attestation-meta">
+                <span>📍 Cotonou, Bénin</span>
+                <span>📅 Août 2025</span>
+              </div>
+              <p class="attestation-desc">
+                Validation approfondie des compétences d'intégration web, sémantique moderne, responsive design avancé et dynamisation interactive en JavaScript.
+              </p>
+              <div style="margin-top: auto; padding-top: 1rem;">
+                <button class="btn btn-secondary btn-sm" style="width: 100%;" onclick="openModal('images/attestations/certif-dev-web.svg', 'Attestation de Réussite - Développement Web Moderne', 'Délivrée par l\'Académie Numérique d\'Excellence. Validation complète des acquis sur la conception de sites web responsives, HTML5, CSS3, JavaScript ES6 et l\'intégration d\'API.')">
+                  <span>Examiner l'attestation</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Attestation 2 : Programmation Java -->
+          <div class="attestation-card">
+            <div class="attestation-img-wrap" onclick="openModal('images/attestations/certif-java.svg', 'Certificat Spécialisé - Programmation Java & POO', 'Délivré par le Centre International de Formation en Informatique. Maîtrise des concepts fondamentaux de la programmation orientée objet, des structures de données et des connexions JDBC.')">
+              <img src="images/attestations/certif-java.svg" alt="Certificat Programmation Java" />
+              <div class="attestation-zoom-hint">
+                <span>🔍</span>
+                <span>Cliquer pour agrandir</span>
+              </div>
+            </div>
+            <div class="attestation-info">
+              <h3>Certificat Spécialisé - Programmation Java & POO</h3>
+              <div class="attestation-org">
+                <span>🏢</span>
+                <span>Centre International de Formation Informatique</span>
+              </div>
+              <div class="attestation-meta">
+                <span>📍 Institut de Technologie</span>
+                <span>📅 Juin 2025</span>
+              </div>
+              <p class="attestation-desc">
+                Maîtrise de la POO rigoureuse : héritage, polymorphisme, interfaces, gestion fine des exceptions, tests unitaires et interaction avec base de données relationnelle.
+              </p>
+              <div style="margin-top: auto; padding-top: 1rem;">
+                <button class="btn btn-secondary btn-sm" style="width: 100%;" onclick="openModal('images/attestations/certif-java.svg', 'Certificat Spécialisé - Programmation Java & POO', 'Délivré par le Centre International de Formation en Informatique. Maîtrise des concepts fondamentaux de la programmation orientée objet, des structures de données et des connexions JDBC.')">
+                  <span>Examiner l'attestation</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Attestation 3 : Design Graphique & Multimédia -->
+          <div class="attestation-card">
+            <div class="attestation-img-wrap" onclick="openModal('images/attestations/certif-design.svg', 'Attestation Professionnelle - Infographie & Design Visuel', 'Formation certifiante dispensée par l\'Atelier des Arts Numériques. Maîtrise de la suite Adobe (Photoshop, Illustrator), composition visuelle et charte de marque.')">
+              <img src="images/attestations/certif-design.svg" alt="Attestation Infographie et Design" />
+              <div class="attestation-zoom-hint">
+                <span>🔍</span>
+                <span>Cliquer pour agrandir</span>
+              </div>
+            </div>
+            <div class="attestation-info">
+              <h3>Attestation Professionnelle - Infographie & Design Visuel</h3>
+              <div class="attestation-org">
+                <span>🏢</span>
+                <span>Atelier des Arts Numériques & Multimédia</span>
+              </div>
+              <div class="attestation-meta">
+                <span>📍 Espace Créatif</span>
+                <span>📅 Décembre 2024</span>
+              </div>
+              <p class="attestation-desc">
+                Formation certifiante sur la théorie des couleurs, la typographie appliquée, le design d'affiches publicitaires et la création de logos vectoriels.
+              </p>
+              <div style="margin-top: auto; padding-top: 1rem;">
+                <button class="btn btn-secondary btn-sm" style="width: 100%;" onclick="openModal('images/attestations/certif-design.svg', 'Attestation Professionnelle - Infographie & Design Visuel', 'Formation certifiante dispensée par l\'Atelier des Arts Numériques. Maîtrise de la suite Adobe (Photoshop, Illustrator), composition visuelle et charte de marque.')">
+                  <span>Examiner l'attestation</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Attestation 4 : Développement PHP & Bases de Données -->
+          <div class="attestation-card">
+            <div class="attestation-img-wrap" onclick="openModal('images/attestations/certif-php.svg', 'Attestation de Formation - Développement Backend PHP & SQL', 'Attestation de réussite du cursus Backend et Gestion de Données. Création d\'architectures MVC robustes, sécurité des requêtes préparées et sécurisation des sessions.')">
+              <img src="images/attestations/certif-php.svg" alt="Attestation Développement Backend PHP" />
+              <div class="attestation-zoom-hint">
+                <span>🔍</span>
+                <span>Cliquer pour agrandir</span>
+              </div>
+            </div>
+            <div class="attestation-info">
+              <h3>Attestation de Formation - Backend PHP & SQL</h3>
+              <div class="attestation-org">
+                <span>🏢</span>
+                <span>Institut Supérieur du Logiciel</span>
+              </div>
+              <div class="attestation-meta">
+                <span>📍 En Ligne & Certifié</span>
+                <span>📅 Octobre 2024</span>
+              </div>
+              <p class="attestation-desc">
+                Conception de backends fiables en PHP : requêtes préparées PDO contre les injections SQL, gestion des sessions sécurisées et architectures de routage.
+              </p>
+              <div style="margin-top: auto; padding-top: 1rem;">
+                <button class="btn btn-secondary btn-sm" style="width: 100%;" onclick="openModal('images/attestations/certif-php.svg', 'Attestation de Formation - Développement Backend PHP & SQL', 'Attestation de réussite du cursus Backend et Gestion de Données. Création d\'architectures MVC robustes, sécurité des requêtes préparées et sécurisation des sessions.')">
+                  <span>Examiner l'attestation</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER UNIFIÉ ==================== -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

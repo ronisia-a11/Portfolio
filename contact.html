@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Portfolio Personnel</title>
+  <meta name="description" content="Contactez-moi directement via le formulaire ou découvrez mes coordonnées et réseaux sociaux (WhatsApp, LinkedIn, GitHub, TikTok, Facebook)." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body data-page="contact">
+
+  <!-- ==================== HEADER UNIFIÉ ==================== -->
+  <header id="site-header"></header>
+
+  <main>
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">📩 Échangeons ensemble</span>
+          <h1 class="section-title">Prendre <span class="gradient-text">Contact</span></h1>
+          <p class="section-subtitle">
+            Vous avez un projet web à concrétiser, un besoin en design graphique ou montage vidéo, ou vous souhaitez simplement échanger sur une opportunité ? N'hésitez pas à m'écrire !
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- PARTIE 1 : FORMULAIRE DE CONTACT -->
+          <div class="contact-card-box">
+            <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem;">Envoyez-moi un message</h2>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.75rem;">
+              Remplissez le formulaire ci-dessous. Tous les champs sont validés afin de garantir un traitement rapide de votre demande.
+            </p>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <!-- Nom et prénom -->
+              <div class="form-group">
+                <label for="nom" class="form-label">Nom et Prénom *</label>
+                <input 
+                  type="text" 
+                  id="nom" 
+                  name="nom" 
+                  class="form-control" 
+                  placeholder="Ex : Jean Dupont" 
+                  required 
+                  minlength="2" 
+                />
+                <span class="form-feedback">Veuillez renseigner votre nom (au moins 2 caractères).</span>
+              </div>
+
+              <!-- Adresse e-mail -->
+              <div class="form-group">
+                <label for="email" class="form-label">Adresse E-mail *</label>
+                <input 
+                  type="email" 
+                  id="email" 
+                  name="email" 
+                  class="form-control" 
+                  placeholder="Ex : jean.dupont@exemple.com" 
+                  required 
+                />
+                <span class="form-feedback">Veuillez renseigner une adresse e-mail valide.</span>
+              </div>
+
+              <!-- Sujet -->
+              <div class="form-group">
+                <label for="sujet" class="form-label">Sujet *</label>
+                <input 
+                  type="text" 
+                  id="sujet" 
+                  name="sujet" 
+                  class="form-control" 
+                  placeholder="Ex : Proposition de projet / Stage / Collaboration" 
+                  required 
+                  minlength="3" 
+                />
+                <span class="form-feedback">Veuillez préciser le sujet de votre message.</span>
+              </div>
+
+              <!-- Message -->
+              <div class="form-group">
+                <label for="message" class="form-label">Message *</label>
+                <textarea 
+                  id="message" 
+                  name="message" 
+                  class="form-control" 
+                  placeholder="Décrivez votre projet, votre besoin ou votre proposition..." 
+                  required 
+                  minlength="10"
+                ></textarea>
+                <span class="form-feedback">Veuillez rédiger un message détaillé (au moins 10 caractères).</span>
+              </div>
+
+              <!-- Bouton Envoyer -->
+              <div style="margin-top: 0.5rem;">
+                <button type="submit" class="btn btn-primary" style="width: 100%; padding: 0.95rem;">
+                  <span>✉️</span> Envoyer le message
+                </button>
+              </div>
+            </form>
+          </div>
+
+          <!-- PARTIE 2 : MES COORDONNÉES & RÉSEAUX SOCIAUX -->
+          <div class="contact-card-box">
+            <h2 style="font-size: 1.4rem; font-weight: 700; margin-bottom: 0.5rem;">Mes Coordonnées</h2>
+            <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;">
+              Retrouvez mes informations de localisation et mes canaux de communication directs pour un échange immédiat.
+            </p>
+
+            <div class="contact-info-list">
+              <!-- Lieu de résidence -->
+              <div class="contact-info-item">
+                <div class="contact-icon">📍</div>
+                <div class="contact-text">
+                  <h4>Lieu de résidence</h4>
+                  <span>Cotonou, Bénin</span>
+                </div>
+              </div>
+
+              <!-- Téléphone -->
+              <div class="contact-info-item">
+                <div class="contact-icon">📞</div>
+                <div class="contact-text">
+                  <h4>Téléphone</h4>
+                  <a href="tel:+22900000000">+229 00 00 00 00</a>
+                </div>
+              </div>
+
+              <!-- WhatsApp Direct -->
+              <div class="contact-info-item">
+                <div class="contact-icon" style="color: #25d366; background: rgba(37, 211, 102, 0.12);">💬</div>
+                <div class="contact-text">
+                  <h4>WhatsApp</h4>
+                  <a href="https://wa.me/22900000000" target="_blank" rel="noopener noreferrer" style="color: #25d366;">
+                    Discuter directement sur WhatsApp
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Réseaux Sociaux & Professionnels avec Logos -->
+            <div style="margin-top: 2rem;">
+              <h3 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem;">Mes Réseaux Professionnels & Sociaux</h3>
+              <div class="social-buttons-grid">
+                <!-- GitHub -->
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-btn github" title="Consulter mon GitHub">
+                  <img src="images/logos/github.svg" alt="GitHub" />
+                  <span>GitHub</span>
+                </a>
+
+                <!-- LinkedIn -->
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-btn linkedin" title="Consulter mon profil LinkedIn">
+                  <img src="images/logos/linkedin.svg" alt="LinkedIn" />
+                  <span>LinkedIn</span>
+                </a>
+
+                <!-- TikTok -->
+                <a href="https://tiktok.com" target="_blank" rel="noopener noreferrer" class="social-btn tiktok" title="Suivre mes vidéos sur TikTok">
+                  <img src="images/logos/tiktok.svg" alt="TikTok" />
+                  <span>TikTok</span>
+                </a>
+
+                <!-- Facebook -->
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-btn facebook" title="Me contacter sur Facebook">
+                  <img src="images/logos/facebook.svg" alt="Facebook" />
+                  <span>Facebook</span>
+                </a>
+              </div>
+            </div>
+
+            <!-- Disponibilité -->
+            <div style="margin-top: 2rem; padding: 1.25rem; background: var(--bg-input); border-radius: var(--radius-md); border: 1px solid var(--border-color);">
+              <div style="display: flex; align-items: center; gap: 0.5rem; font-weight: 700; margin-bottom: 0.4rem; color: #10b981;">
+                <span class="pulse-dot"></span>
+                <span>Statut : Disponible</span>
+              </div>
+              <p style="font-size: 0.88rem; color: var(--text-secondary); margin: 0;">
+                Actuellement ouvert aux opportunités de stage, contrats freelance et collaborations techniques. Réponse assurée sous 24h.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================== FOOTER UNIFIÉ ==================== -->
+  <footer id="site-footer"></footer>
+
+  <!-- Scripts -->
+  <script src="js/components.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>

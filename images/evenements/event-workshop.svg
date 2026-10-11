@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="grad_event-workshop" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#064e3b"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+    <radialGradient id="radial_event-workshop" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.18)"/>
+      <stop offset="100%" stop-color="rgba(0,0,0,0.4)"/>
+    </radialGradient>
+    <pattern id="pat_event-workshop" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="800" height="500" fill="url(#grad_event-workshop)"/>
+  <rect width="800" height="500" fill="url(#pat_event-workshop)"/>
+  <rect width="800" height="500" fill="url(#radial_event-workshop)"/>
+
+  <!-- Cadre décoratif -->
+  <rect x="30" y="30" width="740" height="440" rx="16" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="2"/>
+  
+  <!-- Badge central -->
+  <circle cx="400" cy="180" r="72" fill="rgba(255,255,255,0.15)" stroke="rgba(255,255,255,0.3)" stroke-width="2"/>
+  <text x="400" y="205" font-size="64" text-anchor="middle" dominant-baseline="central">🛠️</text>
+
+  <!-- Titres -->
+  <text x="400" y="315" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="28" fill="#ffffff" text-anchor="middle" letter-spacing="1">WORKSHOP DÉVELOPPEMENT WEB</text>
+  <text x="400" y="360" font-family="'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="500" font-size="18" fill="rgba(255,255,255,0.85)" text-anchor="middle">Atelier pratique et échanges communautaires</text>
+
+  <!-- Ligne accent -->
+  <rect x="260" y="400" width="280" height="4" rx="2" fill="rgba(255,255,255,0.5)"/>
+</svg>
