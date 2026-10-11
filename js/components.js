@@ -13,11 +13,11 @@ const PORTFOLIO_CONFIG = {
   bioFooter: "Passionné par l'informatique, le développement de solutions numériques, le design graphique et la production vidéo.",
   currentYear: new Date().getFullYear(),
   socialLinks: {
-    github: "https://github.com",
-    linkedin: "https://linkedin.com",
+    github: "https://github.com/ronisia-a11",
+    linkedin: " https://www.linkedin.com/in/falleu-ronis-3676a8395/",
     tiktok: "https://tiktok.com",
-    facebook: "https://facebook.com",
-    whatsapp: "https://wa.me/22900000000" // Remplacer par son numéro WhatsApp
+    facebook: ": https://web.facebook.com/profile.php?id=61560552572433",
+    whatsapp: "https://wa.me/683976216" // Remplacer par son numéro WhatsApp
   }
 };
 
