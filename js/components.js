@@ -15,7 +15,7 @@ const PORTFOLIO_CONFIG = {
   socialLinks: {
     github: "https://github.com/ronisia-a11",
     linkedin: " https://www.linkedin.com/in/falleu-ronis-3676a8395/",
-    tiktok: "https://tiktok.com",
+    tiktok: "https://tiktok.com/@linformaticien18",
     facebook: ": https://web.facebook.com/profile.php?id=61560552572433",
     whatsapp: "https://wa.me/683976216" // Remplacer par son numéro WhatsApp
   }
