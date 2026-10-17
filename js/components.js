@@ -191,7 +191,7 @@ function renderFooter() {
 
       <!-- Barre inférieure de copyright -->
       <div class="footer-bottom">
-        <p>&copy; ${PORTFOLIO_CONFIG.currentYear} - Mon Portfolio Personnel. Tous droits réservés.</p>
+        <p>&copy; ${PORTFOLIO_CONFIG.currentYear} - Mon Portfolio. Tous droits réservés.</p>
         <button class="back-to-top" id="back-to-top" aria-label="Remonter en haut de page">
           <span>Haut de page</span> ↑
         </button>

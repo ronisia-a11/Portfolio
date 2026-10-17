@@ -1,6 +1,6 @@
 # 💻 Portfolio Personnel Moderne
 
-Bienvenue sur le code source de mon **Portfolio Personnel**, conçu en **HTML5, CSS3 et JavaScript** selon l'ensemble des spécifications du cahier des charges.
+Bienvenue sur le code source de mon **Portfolio**, conçu en **HTML5, CSS3 et JavaScript** selon l'ensemble des spécifications du cahier des charges.
 
 Ce projet présente mon parcours académique, mes expériences professionnelles et stages, mes compétences clés, mes projets par domaine, mes attestations obtenues, mes passions ainsi que mes événements technologiques.
 
